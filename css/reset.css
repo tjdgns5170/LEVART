@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+@import url(https://cdn.jsdelivr.net/npm/fullpage.js@2.9.4/dist/jquery.fullpage.min.js);
+
+@import url('https://webfontworld.github.io/pretendard/Pretendard.css');
+
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../font/Roboto-Light.ttf);
+    src: url(../font/Roboto-Thin.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../font/Roboto-Regular.ttf);
+    src: url(../font/Roboto-Medium.ttf);
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Roboto', sans-serif;
+    src: url(../font/Roboto-Bold.ttf);
+    font-weight: 700;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+ol,ul,li{
+    list-style: none;
+}
+img,svg{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+html,body{
+    font-family: "Pretendard";
+    font-size: 100%;
+}
+
+/* swiper */
+
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    text-align: center;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.swiper-slide img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.swiper-button-next:after, .swiper-button-prev:after{
+    color: #FDFEFD;
+    border-radius: 50%;
+    font-size: 20px !important;
+    margin: 0 auto;
+}
+.swiper-button-next, 
+.swiper-button-prev{
+    width: 40px !important;
+    height: 40px !important;
+    background-color: #8FBFAE;
+    border-radius: 50%;
+    opacity: 80%;
+}
