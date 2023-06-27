@@ -1408,6 +1408,13 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        margin-left: 20px;
+    }
+    .sec-1-bottom a{
+        margin-bottom: 20px;
+    }
+    .sec-1-bottom a:last-child{
+        margin-bottom: -20px;
     }
     .sec-1-txt{
         background-color: #E3EFEB;
