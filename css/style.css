@@ -1360,7 +1360,7 @@
     #hamburger{
         display: block;
         position: relative;
-        left: 300%;
+        left: 250%;
         width: 20px;
         height: 14px;
         z-index: 99999;
