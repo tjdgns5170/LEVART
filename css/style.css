@@ -1326,7 +1326,7 @@
     }
 }
 
-@media(max-width: 375px){
+@media(max-width: 525px){
     .header-area{
         height: 50px;
         z-index: 999;
